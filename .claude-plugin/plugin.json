@@ -1,0 +1,15 @@
+{
+  "name": "claude-ssh",
+  "displayName": "SSH Manager",
+  "description": "Secure SSH connections for Claude Code. Saves encrypted passwords, requires passcode to connect.",
+  "version": "1.0.0",
+  "author": "joshuag",
+  "license": "MIT",
+  "keywords": ["ssh", "remote", "secure", "password", "connection"],
+  "mcpServers": {
+    "ssh-manager": {
+      "command": "python3",
+      "args": ["mcp/ssh_server.py"]
+    }
+  }
+}
